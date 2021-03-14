@@ -29,6 +29,30 @@ Installing qubes with those settings is much more compatible with my notebook as
 
 So before starting with customization I installed some packages in dom0 to get more dependencies and files I need to "build" my prefered desktop surface and the templates I like to use later, especially the Kali -template from fepitre ,because later, there is not enough root space to extract it & you need to increase the root space to install this. This step can be safed on this way, but it is not a real problem to increase it later An easy way is to use the KDE partition manager and install it in dom0. Then you can change the root volume in a gui and do some other changes at your partitions, too if you wanna it.
 
+Now let us start to install some more dependencies for riching your system, to build packages later and just for better running and compatibility.
+You have to run the sudo qubes-dom0-update command after every "\" line.
+
+    sudo qubes-dom0-update gcc-c++ meson \
+      cairo-devel cmake automake xcb-util-devel libxcb-devel xcb-proto dbus-devel \
+      xcb-util-image-devel wireless-tools-devel libnl3-devel xcb-util-wm-devel \
+      flex bison libxkbcommon-devel libxkbcommon-x11-devel pango-devel startup-notification-devel librsvg2-devel \
+      libXcomposite-devel libXrandr-devel libXinerama-devel libconfig-devel asciidoc imlib2-devel \
+      xcb-util-keysyms xcb-util-keysyms-devel xcb-util-renderutil xcb-util-renderutil-devel \
+      libev libev-devel uthash-devel asciidoc libevdev libevdev-devel libevdev-utils \
+      libXrender libXrender-devel libmpdclient libmpdclient-devel \
+      gcc kmod grub2-tools perl-bignum make    #this line is for building a nvidia driver later.
+      
+   
+And now finally I installed KDE and we can start with the customization, because then you don't need to order your icons and such things twice.
+Not everybody prefers KDE instead of Xfce as a desktop and of course you can use Xfce, i3 or whatever you like but I think KDE is one of the easiest to use, especially for the people with less Linux experience
+and you can style it better as the other. An other point is that I am using KDE for years and I don't now much about Xfce, but be free to choose what you want.
+If you like KDE it is a good possibility for qubes 4.1 and the perfomance & compatibility is great as well. One more advantage of KDE is that you can change the languages and make qubes available in your foreign language. So, if you like KDE, too you can take a look at my sytle tips at the other page and go on here with installing it.
+
+
+
+
+ 
+
                
 
                          
