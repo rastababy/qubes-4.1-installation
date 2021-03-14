@@ -27,7 +27,7 @@ My general installation options:
                 
 Installing qubes with those settings is much more compatible with my notebook as qubes 3.2x and qubes 4.0x was. But always keep in mind that it is a alpha and this is can be different from the one computer to the other. But my rating definitely is 5/5*.
 
-So before starting with customization I installed some packages in dom0 to get more dependencies and files I need to "build" my prefered desktop surface and the templates I like to use later, especially the Kali -template from fepitre ,because later, there is not enough root space to extract it & you need to increase the root space to install this. This step can be safed on this way, but it is not a real problem to increase it later and I will tell you how to do this easily at the next pages.
+So before starting with customization I installed some packages in dom0 to get more dependencies and files I need to "build" my prefered desktop surface and the templates I like to use later, especially the Kali -template from fepitre ,because later, there is not enough root space to extract it & you need to increase the root space to install this. This step can be safed on this way, but it is not a real problem to increase it later An easy way is to use the KDE partition manager and install it in dom0. Then you can change the root volume in a gui and do some other changes at your partitions, too if you wanna it.
 
                
 
