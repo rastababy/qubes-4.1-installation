@@ -9,8 +9,8 @@ After installing the Qubes 4.1 signed alpha.iso with the following options I ena
     sudo qubes-dom0-update --enablerepo=qubes-dom0-current-testing
 
    Prepare the installation: 
-   Create a root account, choose a username, password, storage disks .... everythinglike you prefer it.
-   But for me, the only working installing-method in 4.1 is the "automatic". 
+   Create a root account, choose a username, password, storage disks .... everything like you prefer it.
+   But attention! For me, the only working installing-method in 4.1 is the "automatic". 
    Custom or Blived gui will break the installer, but that maybe only affects my system and you need to test if it is working for you. 
    But my suggestion is like the official documentation to install it on a own SSD without a 2nd partition with Windows on it.Therefore you should use an other.
    
