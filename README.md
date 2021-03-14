@@ -1,4 +1,4 @@
-# Qubes-4.1-installation tips
+# Qubes-4.1-installation tips for beginners
 Hello:)
 First of all I have to say that Qubes is an amazing system. I hope that the guys of the team never will loose their eagerness to grow up this project for the next decades.
 In the next steps I try to show you my setup of Qubes 4.1 with my goal to reach a coloful and easy to use desktop surface. Please never miss that installing software in dom0 may lower your security level, but sometimes a bit more comfort and colors shouldn't be bad and of course everybody have to decide it for themselves. And of course not everything is working perfect at the moment and I am trying to improve it all the time.
