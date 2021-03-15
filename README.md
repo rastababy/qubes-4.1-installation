@@ -40,14 +40,30 @@ You have to run the sudo qubes-dom0-update command after every "\" line.
       xcb-util-keysyms xcb-util-keysyms-devel xcb-util-renderutil xcb-util-renderutil-devel \
       libev libev-devel uthash-devel asciidoc libevdev libevdev-devel libevdev-utils \
       libXrender libXrender-devel libmpdclient libmpdclient-devel \
-      gcc kmod grub2-tools perl-bignum make    #this line is for building a nvidia driver later.
+      gcc kmod grub2-tools perl-bignum make    #this line is for building a nvidia driver later/ radeon users don't need it
       
    
 And now finally I installed KDE and we can start with the customization, because then you don't need to order your icons and such things twice.
-Not everybody prefers KDE instead of Xfce as a desktop and of course you can use Xfce, i3 or whatever you like but I think KDE is one of the easiest to use, especially for the people with less Linux experience
-and you can style it better as the other. An other point is that I am using KDE for years and I don't now much about Xfce, but be free to choose what you want.
-If you like KDE it is a good possibility for qubes 4.1 and the perfomance & compatibility is great as well. One more advantage of KDE is that you can change the languages and make qubes available in your foreign language. So, if you like KDE, too you can take a look at my sytle tips at the other page and go on here with installing it.
+Not everybody prefers KDE instead of Xfce as a desktop and of course you can use Xfce, i3 or whatever you like but I think KDE is one of the easiest to use, especially for the people with less Linux experience and you can style it better as the other. An other point is that I am using KDE for years and I don't now much about Xfce, but be free to choose what you want.
+If you like KDE it is a good possibility for qubes 4.1 and the perfomance & compatibility is great as well. One more advantage of KDE is that you can change the languages and make qubes available in your foreign language. So, if you like KDE, too you can take a look at my sytle tips at the other page and go on here with installing it and all its dependencies to run smooth.
 
+Now let us install the KDE-Desktop instead of the Xfce, running  a terminal in dom0 and install:
+
+    1. sudo qubes-dom0-update @kde-desktop-qubes ; here you will get an error that the group is not available, but we will install the the complete packages now!
+    2. sudo dnf install plasma-workspace   ; this will install the main surface and after installing you can logout from Xfce and switch to KDE
+
+But to get some nice widgets working in KDE we need to install some more dependencies.
+ 
+    3. sudo qubes-dom0-update        qt5-qtbase-devel qt5-qtdeclarative-devel qt5-qtx11extras-devel  \
+             "                       kf5-plasma-devel kf5-kglobalaccel-devel kf5-kxmlgui-devel kscreen  ;from now you can install a widget like virtual desktopbar
+
+Next I installed some more packages that are usually available at KDE, like the file manager, console, screen tools and such things.  
+
+    4. sudo qubes-dom0-update        kscreen dolphin konsole 
+                                    
+                                    
+                                    
+                                    
 
 
 
