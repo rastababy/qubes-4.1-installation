@@ -55,11 +55,16 @@ Now let us install the KDE-Desktop instead of the Xfce, running  a terminal in d
 But to get some nice widgets working in KDE we need to install some more dependencies.
  
     3. sudo qubes-dom0-update        qt5-qtbase-devel qt5-qtdeclarative-devel qt5-qtx11extras-devel  \
-             "                       kf5-plasma-devel kf5-kglobalaccel-devel kf5-kxmlgui-devel kscreen  ;from now you can install a widget like virtual desktopbar
+             "                       kf5-plasma-devel kf5-kglobalaccel-devel kf5-kxmlgui-devel kscreen  
+             
+Now you can install a widget like virtual desktopbar. But we need some more dependencies that later you can add easily your prefered and top rated widgets from the plasma-store like the window-buttons to your KDE. I like to do everything annoying at the beginning;) 
+    4. 
 
 Next I installed some more packages that are usually available at KDE, like the file manager, console, screen tools and such things.  
 
-    4. sudo qubes-dom0-update        kscreen dolphin konsole 
+    4. sudo qubes-dom0-update        kscreen dolphin konsole kde-partitionmanager 
+
+(in the partition manager you can increase your root volume from 20g to 30g.  That is good, if you like to install many and big templates like the kali from fepitre or gentoo and then you never will get problems at extracting and downloading.
                                     
                                     
                                     
